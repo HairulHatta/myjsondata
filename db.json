@@ -1,4 +1,4 @@
-var myJsonData = [{
+{
 	"id": "1",
 	"longitude": "108.482898",
 	"latitude": "-6.976145",
@@ -215,5 +215,4 @@ var myJsonData = [{
 	"description": "Rumah Sakit Umum Daerah Linggajati",
 	"altitude": "100.0",
 	"name": "RSUD Linggajati"
-},
-];
+}
