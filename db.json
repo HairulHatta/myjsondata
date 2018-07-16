@@ -1,12 +1,12 @@
 {
-	"id": "1",
+	"id": 1,
 	"longitude": "108.482898",
 	"latitude": "-6.976145",
 	"description": "Sekretariat Daerah",
 	"altitude": "100.0",
 	"name": "Sekretariat Daerah"
 }, {
-	"id": "2",
+	"id": 2,
 	"longitude": "108.518625",
 	"latitude": "-6.967219",
 	"description": "Sekretariat DPRD",
