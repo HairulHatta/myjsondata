@@ -1,0 +1,219 @@
+var myJsonData = [{
+	"id": "1",
+	"longitude": "108.482898",
+	"latitude": "-6.976145",
+	"description": "Sekretariat Daerah",
+	"altitude": "100.0",
+	"name": "Sekretariat Daerah"
+}, {
+	"id": "2",
+	"longitude": "108.518625",
+	"latitude": "-6.967219",
+	"description": "Sekretariat DPRD",
+	"altitude": "100.0",
+	"name": "Sekretariat DPRD"
+}, {
+	"id": "3",
+	"longitude": "108.499203",
+	"latitude": "-6.969751",
+	"description": "Inspektorat",
+	"altitude": "100.0",
+	"name": "Inspektorat"
+}, {
+	"id": "4",
+	"longitude": "108.461673",
+	"latitude": "-6.977822",
+	"description": "Dinas Pendidikan dan Kebudayaan",
+	"altitude": "100.0",
+	"name": "DISDIKBUD"
+}, {
+	"id": "5",
+	"longitude": "108.462927",
+	"latitude": "-6.989796",
+	"description": "Dinas Pertanian",
+	"altitude": "100.0",
+	"name": "DISTAN"
+}, {
+	"id": "6",
+	"longitude": "108.485204",
+	"latitude": "-6.977936",
+	"description": "Dinas Kesehatan",
+	"altitude": "100.0",
+	"name": "DINKES"
+}, {
+	"id": "7",
+	"longitude": "108.531859",
+	"latitude": "-6.939697",
+	"description": "Dinas Pekerjaan Umum dan Penataan Ruang",
+	"altitude": "100.0",
+	"name": "DPUPR"
+}, {
+	"id": "8",
+	"longitude": "108.531859",
+	"latitude": "-6.939697",
+	"description": "Dinas Perumahan, Pemukiman dan Pertanahan",
+	"altitude": "100.0",
+	"name": "DP3"
+}, {
+	"id": "9",
+	"longitude": "108.518045",
+	"latitude": "-6.969784",
+	"description": "Dinas Pengendalian Penduduk dan Keluarga Berencana",
+	"altitude": "100.0",
+	"name": "DP2KB"
+}, {
+	"id": "10",
+	"longitude": "108.492351",
+	"latitude": "-6.973360",
+	"description": "Dinas Ketahanan Pangan dan Perikanan",
+	"altitude": "100.0",
+	"name": "BKP2"
+}, {
+	"id": "11",
+	"longitude": "108.518449",
+	"latitude": "-6.970723",
+	"description": "Dinas Lingkungan Hidup",
+	"altitude": "100.0",
+	"name": "DLH"
+}, {
+	"id": "12",
+	"longitude": "108.532524",
+	"latitude": "-6.969529",
+	"description": "Dinas Tenaga Kerja dan Transmigrasi",
+	"altitude": "100.0",
+	"name": "DISNAKERTRANS"
+}, {
+	"id": "13",
+	"longitude": "108.515227",
+	"latitude": "-6.968923",
+	"description": "Dinas Sosial, Pemberdayaan Perempuan dan Perlindungan Anak",
+	"altitude": "100.0",
+	"name": "DINSPS-P3A"
+}, {
+	"id": "14",
+	"longitude": "108.484365",
+	"latitude": "-6.977344",
+	"description": "Dinas Komunikasi dan Informatika",
+	"altitude": "100.0",
+	"name": "DISKOMINFO"
+}, {
+	"id": "15",
+	"longitude": "108.484857",
+	"latitude": "-6.977538",
+	"description": "Dinas Koperasi dan Usaha Kecil Menengah",
+	"altitude": "100.0",
+	"name": "DKUKM"
+}, {
+	"id": "16",
+	"longitude": "108.485521",
+	"latitude": "-6.978178",
+	"description": "Dinas Perindustrian dan Perdagangan",
+	"altitude": "100.0",
+	"name": "DISPERINDAG"
+}, {
+	"id": "17",
+	"longitude": "",
+	"latitude": "",
+	"description": "Dinas Pemuda, Olahraga dan Pariwisata",
+	"altitude": "100.0",
+	"name": "DISPORAPAR"
+}, {
+	"id": "18",
+	"longitude": "108.520557",
+	"latitude": "-6.970743",
+	"description": "Dinas Kearsipan dan Perpustakaan",
+	"altitude": "100.0",
+	"name": "DISARSIPUS"
+}, {
+	"id": "19",
+	"longitude": "",
+	"latitude": "",
+	"description": "Dinas Perhubungan",
+	"altitude": "100.0",
+	"name": "DISHUB"
+}, {
+	"id": "20",
+	"longitude": "108.500036",
+	"latitude": "-6.958191",
+	"description": "Dinas Penanaman  Modal dan Pelayanan Terpadu Satu Pintu",
+	"altitude": "100.0",
+	"name": "DPMPTSP"
+}, {
+	"id": "21",
+	"longitude": "108.498447",
+	"latitude": "-6.988659",
+	"description": "Dinas Pemberdayaan Masyarakat dan Desa",
+	"altitude": "100.0",
+	"name": "DPMP"
+}, {
+	"id": "22",
+	"longitude": "108.518352",
+	"latitude": "-6.970762",
+	"description": "Dinas Kependudukan dan Pencatatan Sipil",
+	"altitude": "100.0",
+	"name": "DISKDUKCAPIL"
+}, {
+	"id": "23",
+	"longitude": "108.476041",
+	"latitude": "-6.958460",
+	"description": "Satuan Polisi Pamong Praja",
+	"altitude": "100.0",
+	"name": "SATPOLPP"
+}, {
+	"id": "24",
+	"longitude": "108.508999",
+	"latitude": "-6.965785",
+	"description": "Badan Perencanaan  Pembangunan, Penelitian dan Pengembangan Daerah",
+	"altitude": "100.0",
+	"name": "BAPPEDA"
+}, {
+	"id": "25",
+	"longitude": "108.482223",
+	"latitude": "-6.975872",
+	"description": "Badan Pengelolaan Pendapatan Daerah",
+	"altitude": "100.0",
+	"name": "BALOPENDA"
+}, {
+	"id": "26",
+	"longitude": "108.488614",
+	"latitude": "-6.950107",
+	"description": "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia",
+	"altitude": "100.0",
+	"name": "BKPSDM"
+}, {
+	"id": "27",
+	"longitude": "108.481900",
+	"latitude": "-6.975704",
+	"description": "Badan Pengelolaan Keuangan dan Aset Daerah",
+	"altitude": "100.0",
+	"name": "BPKAD"
+}, {
+	"id": "28",
+	"longitude": "108.513127",
+	"latitude": "-6.970091",
+	"description": "Badan Kesatuan Bangsa dan Politik",
+	"altitude": "100.0",
+	"name": "BAKESBANGPOL"
+}, {
+	"id": "29",
+	"longitude": "108.483726",
+	"latitude": "-6.984013",
+	"description": "Badan Penanggulangan Bencana Daerah",
+	"altitude": "100.0",
+	"name": "BPBD"
+}, {
+	"id": "30",
+	"longitude": "108.481686",
+	"latitude": "-6.983959",
+	"description": "Rumah Sakit Umum Daerah ’45",
+	"altitude": "100.0",
+	"name": "RSUD 45"
+}, {
+	"id": "31",
+	"longitude": "108.494178",
+	"latitude": "-6.885204",
+	"description": "Rumah Sakit Umum Daerah Linggajati",
+	"altitude": "100.0",
+	"name": "RSUD Linggajati"
+},
+];
